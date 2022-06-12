@@ -1,0 +1,73 @@
+@import "./normalize";
+@import "./fonts";
+@import "./header";
+@import "./main";
+@import "./footer";
+
+body {
+  font-family: 'Roboto';
+}
+
+.title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 56px;
+}
+
+.subtitle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.text-grey {
+  color: #8F9BB3;
+}
+
+.text-white {
+  color: #FFFFFF;
+}
+
+.text-blue {
+  color: #00A1FF;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.button-radius {
+  border-radius: 53px;
+}
+
+.button:hover {
+  filter: grayscale(.5);
+}
+
+.bg-blue {
+  background: #00A1FF;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+}
